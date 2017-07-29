@@ -12,6 +12,7 @@ export default ({ childProps }) => (
     <AppliedRoute path="/login" exact component={Login} props={childProps} />
     <AppliedRoute path="/signup" exact component={Signup} props={childProps} />
     <AppliedRoute path="/serverless/upload" exact component={NewNote} props={childProps} />
+    // <AppliedRoute path="/notes/:id" exact component={Notes} props={childProps} />
     <Route component={NotFound} />
   </Switch>
 );
